@@ -108,18 +108,18 @@ for daycount in range(0,simdays):
     period.append(str(startday))
 
 
-print period
+print(period)
 
 for p in period:
-	print p
+	print(p)
 	lastday=p
 	# res=ag.run(p)
 	# iwanttodo=[]
 	iwanttodo={}
 	for st in allstock:
-		if os.path.exists("yahoo-nodejs/old/stocks/"+st+".csv"):
+		if os.path.exists("tickets/"+st+".csv"):
 			# print st
-			stock = pd.read_table("yahoo-nodejs/old/stocks/"+st+".csv",sep=",",encoding='utf-8',dtype={'code':str})
+			stock = pd.read_table("tickets/"+st+".csv",sep=",",encoding='utf-8',dtype={'code':str})
 			stock=stock.sort(columns='Date')
 
 			# print stock
@@ -226,10 +226,10 @@ for p in period:
 				# and fil.do
 				if res.do:
 				# if search.load(st,stockk).volume(27000*3).price(2,1000).show():
-					print st
+					print(st)
 					# iwanttodo.append(st)
 					iwanttodo[st]=res.dotype
-					print res.dotype
+					print(res.dotype)
 					# print '-----------------reslut:'
 					# print tomorow[-2]
 					# print tomorow[-1]
@@ -255,19 +255,19 @@ for p in period:
 					# print 'BAD'
 					# wcout=1
 					pass
-			except Exception, e:
+			except Exception as e:
 				pass
 				# print 'not find date'
 				# todayindex= list(stock['Date']).index('2016-02-01')
-	print iwanttodo
+	print(iwanttodo)
 
 
-print rcout
-print wcout
+print(rcout)
+print(wcout)
 
 if rcout==0 and wcout==0:
 	wcout=1
-print 'win rate:'
-print int(rcout)/(int(wcout)+int(rcout))
+print('win rate:')
+print(int(rcout)/(int(wcout)+int(rcout)))
 
 
