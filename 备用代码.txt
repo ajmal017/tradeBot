@@ -1,0 +1,82 @@
+
+
+#WEB在线编辑python
+#http://wsztrush.github.io/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/2015/10/19/ACEJS-A.html
+
+
+#定时任务系统
+# from apscheduler.schedulers.background import BackgroundScheduler
+# import logging
+# logging.basicConfig()
+# scheduler = BackgroundScheduler()
+# #邮件数据报告
+# scheduler.add_job(tasks.datareport.datareportbyemail,'cron',minute='*/10',second='*/30', hour='*/18',day='*')
+# scheduler.start()
+
+#邮件通知
+# sender = 'data@cdsb.com'
+# receiver = 'qianyuan@cdsb.com'
+# subject = '大数据中心-数据周报'+data['senddate']
+# smtpserver = 'smtp.qq.com'
+# username = 'data@cdsb.com'
+# password = 'Qy1120'
+
+# env = jinja2.Environment(loader = jinja2.FileSystemLoader('template'))
+# template=env.get_template('self.html')
+# htmlstr=template.render(data=data)
+# msg = MIMEText(htmlstr,'html','utf-8')  
+# msg['Subject'] = subject
+# # 设置根容器属性  
+# msg['From'] = '大数据中心<data@cdsb.com>'
+# msg['Cc']='qianyuan@cdsb.com;qianyuan@cdsb.com'
+# #354956321@qq.com,33726853@qq.com,283272698@qq.com,254886080@qq.com,626211810@qq.com
+# smtp = smtplib.SMTP()
+# smtp.connect('smtp.qq.com')
+# smtp.login(username, password)
+# smtp.sendmail(sender, receiver, msg.as_string())
+# smtp.quit()
+
+
+
+
+
+# snum=len(today_buylist)
+# if snum==0:
+#     snum=2
+# everystockbuy=float(myaccount.buyingpower)/snum/2
+# print everystockbuy
+# #操作今日手动筛选的股票
+# for st in today_buylist:
+#     print 'find a buy stock '+st
+#     api.trade(conn,st,'BUY',200)
+
+# pass
+# print 'on going...'
+# print 'scan the market data ...'
+# print 'get all stock symbol and get data'
+# print 'my sotck symbol  list'
+# print 'calulating ...'
+# print 'BUY  or  SELL ...'
+# print 'calulat the order to sell and buy'
+# print 'sumulate...'
+# print 'now my money:'+str(myaccount)
+# print 'selllist:'
+# print selllist
+
+# print 'buylist:'
+# print buylist
+
+# today_sell()    
+
+
+
+
+
+
+
+#跑数据抓取程序，并有注册回调，触发机制
+# ps=subprocess.Popen('cmd.exe',shell=True,stdin=subprocess.PIPE)
+# ps.stdin.write("cd E:\\python\\ibpy\\trade\\goscraw")
+# ps.stdin.write("./realtimedata.exe")
+
+# print today.gettodaylist()

@@ -1,0 +1,659 @@
+my level : -2.06891283264
+currentamount:9032.280
+3-Mar-16 00:00:00 INFO      Running job "update_data (trigger: cron[day='*', hou
+r='*/21', minute='*/30', second='*/30'], next run at: 2016-03-03 00:00:30 EET)"
+(scheduled at 2016-03-03 00:00:00+02:00)
+unrealized:-583.94
+buyingpower:5289.52
+stockvalue:-18687
+cashbalance:27726
+03-Mar-16 00:00:00 INFO      Running job "del_today_conf (trigger: cron[day='*',
+ hour='*/23', minute='*/55', second='*/30'], next run at: 2016-03-03 00:00:30 EE
+T)" (scheduled at 2016-03-03 00:00:00+02:00)
+03-Mar-16 00:00:00 INFO      Job "show_account_info (trigger: cron[day='*', hour
+='*/1'], next run at: 2016-03-03 01:00:00 EET)" executed successfully
+03-Mar-16 00:00:00 DEBUG     Next wakeup is due at 2016-03-03 00:00:30+02:00 (in
+ 29.989000 seconds)
+03-Mar-16 00:00:00 INFO      Job "del_today_conf (trigger: cron[day='*', hour='*
+/23', minute='*/55', second='*/30'], next run at: 2016-03-03 00:00:30 EET)" exec
+uted successfully
+watchthelist: SELL UWTI
+watchthelist: SELL UVXY
+03-Mar-16 00:00:02 INFO      Job "watchthelist (trigger: cron[day='*', hour='*/2
+1', minute='*/45', second='*/30'], next run at: 2016-03-03 00:00:30 EET)" execut
+ed successfully
+03-Mar-16 00:00:05 INFO      new stock to trade  :AMUB
+03-Mar-16 00:00:08 INFO      new order generate :15311
+symbol: RMP  action: BUY volume: 147
+03-Mar-16 00:00:09 INFO      new order generate :15312
+symbol: FIX  action: BUY volume: 117
+03-Mar-16 00:00:10 INFO      new order generate :15313
+symbol: KEYS  action: BUY volume: 130
+03-Mar-16 00:00:12 INFO      new order generate :15314
+symbol: VNCE  action: BUY volume: 192
+03-Mar-16 00:00:13 INFO      new order generate :15315
+symbol: KATE  action: BUY volume: 176
+03-Mar-16 00:00:14 INFO      new order generate :15316
+symbol: RMP  action: BUY volume: 147
+03-Mar-16 00:00:15 INFO      new order generate :15317
+symbol: CZR  action: BUY volume: 486
+03-Mar-16 00:00:15 INFO      new stock to trade  :BTX
+03-Mar-16 00:00:21 INFO      new stock to trade  :CKEC
+03-Mar-16 00:00:27 INFO      new stock to trade  :CYAD
+03-Mar-16 00:00:30 DEBUG     Looking for jobs to run
+03-Mar-16 00:00:30 INFO      Running job "watchthelist (trigger: cron[day='*', h
+our='*/21', minute='*/45', second='*/30'], next run at: 2016-03-03 00:00:30 EET)
+" (scheduled at 2016-03-03 00:00:30+02:00)
+03-Mar-16 00:00:30 WARNING   Execution of job "autogettoday (trigger: cron[day='
+*', hour='*/21', minute='*/51', second='*/30'], next run at: 2016-03-03 00:00:30
+ EET)" skipped: maximum number of running instances reached (1)
+03-Mar-16 00:00:30 WARNING   Execution of job "update_data (trigger: cron[day='*
+', hour='*/21', minute='*/30', second='*/30'], next run at: 2016-03-03 00:00:30
+EET)" skipped: maximum number of running instances reached (1)
+03-Mar-16 00:00:30 INFO      Running job "del_today_conf (trigger: cron[day='*',
+ hour='*/23', minute='*/55', second='*/30'], next run at: 2016-03-03 00:00:30 EE
+T)" (scheduled at 2016-03-03 00:00:30+02:00)
+03-Mar-16 00:00:30 DEBUG     Next wakeup is due at 2016-03-03 00:30:00+02:00 (in
+ 1769.959000 seconds)
+03-Mar-16 00:00:30 INFO      Job "del_today_conf (trigger: cron[day='*', hour='*
+/23', minute='*/55', second='*/30'], next run at: 2016-03-03 00:55:00 EET)" exec
+uted successfully
+watchthelist: SELL UWTI
+03-Mar-16 00:00:32 INFO      new stock to trade  :DYY
+watchthelist: SELL UVXY
+03-Mar-16 00:00:32 INFO      Job "watchthelist (trigger: cron[day='*', hour='*/2
+1', minute='*/45', second='*/30'], next run at: 2016-03-03 00:45:00 EET)" execut
+ed successfully
+03-Mar-16 00:00:38 INFO      new order generate :15318
+symbol: RMP  action: BUY volume: 147
+03-Mar-16 00:00:39 INFO      new order generate :15319
+symbol: FIX  action: BUY volume: 117
+03-Mar-16 00:00:40 INFO      new stock to trade  :FGB
+03-Mar-16 00:00:40 INFO      new order generate :15320
+symbol: KEYS  action: BUY volume: 130
+03-Mar-16 00:00:41 INFO      new order generate :15321
+symbol: VNCE  action: BUY volume: 192
+03-Mar-16 00:00:42 INFO      new stock to trade  :FOXF
+03-Mar-16 00:00:42 INFO      new stock to trade  :FSFG
+03-Mar-16 00:00:42 INFO      new order generate :15322
+symbol: KATE  action: BUY volume: 176
+03-Mar-16 00:00:43 INFO      new stock to trade  :FXCM
+03-Mar-16 00:00:43 INFO      new order generate :15323
+symbol: RMP  action: BUY volume: 147
+03-Mar-16 00:00:44 INFO      new order generate :15324
+symbol: CZR  action: BUY volume: 486
+03-Mar-16 00:00:46 INFO      new stock to trade  :GNBC
+03-Mar-16 00:00:48 INFO      new stock to trade  :GWGH
+03-Mar-16 00:00:48 INFO      new stock to trade  :GZT
+03-Mar-16 00:00:48 INFO      new stock to trade  :HAKK
+03-Mar-16 00:00:50 INFO      new stock to trade  :HLX
+03-Mar-16 00:00:50 INFO      new stock to trade  :HOTR
+03-Mar-16 00:00:59 INFO      new stock to trade  :JONE
+03-Mar-16 00:01:00 INFO      new stock to trade  :KATE
+03-Mar-16 00:01:05 INFO      new stock to trade  :LTRPB
+03-Mar-16 00:01:11 INFO      new stock to trade  :MTR
+03-Mar-16 00:01:11 INFO      new stock to trade  :MVG
+03-Mar-16 00:01:16 INFO      new stock to trade  :NVGS
+03-Mar-16 00:01:27 INFO      new stock to trade  :RAIL
+03-Mar-16 00:01:32 INFO      new stock to trade  :SBSA
+03-Mar-16 00:01:37 INFO      new stock to trade  :SPIR
+03-Mar-16 00:01:37 INFO      new stock to trade  :SPMD
+03-Mar-16 00:01:44 INFO      new stock to trade  :TROVW
+03-Mar-16 00:01:48 INFO      new stock to trade  :USV
+03-Mar-16 00:01:48 INFO      new stock to trade  :UXJ
+03-Mar-16 00:01:49 INFO      new stock to trade  :VHI
+today at last :
+['XTLY', 'GWGH', 'LTRPB']
+03-Mar-16 00:01:56 INFO      Job "autogettoday (trigger: cron[day='*', hour='*/2
+1', minute='*/51', second='*/30'], next run at: 2016-03-03 00:51:00 EET)" execut
+ed successfully
+03-Mar-16 00:06:12 INFO      Job "update_data (trigger: cron[day='*', hour='*/21
+', minute='*/30', second='*/30'], next run at: 2016-03-03 00:30:00 EET)" execute
+d successfully
+03-Mar-16 00:30:00 DEBUG     Looking for jobs to run
+03-Mar-16 00:30:00 INFO      Running job "update_data (trigger: cron[day='*', ho
+ur='*/21', minute='*/30', second='*/30'], next run at: 2016-03-03 00:30:30 EET)"
+ (scheduled at 2016-03-03 00:30:00+02:00)
+03-Mar-16 00:30:00 DEBUG     Next wakeup is due at 2016-03-03 00:30:30+02:00 (in
+ 29.982000 seconds)
+03-Mar-16 00:30:30 DEBUG     Looking for jobs to run
+03-Mar-16 00:30:30 WARNING   Execution of job "update_data (trigger: cron[day='*
+', hour='*/21', minute='*/30', second='*/30'], next run at: 2016-03-03 00:30:30
+EET)" skipped: maximum number of running instances reached (1)
+03-Mar-16 00:30:30 DEBUG     Next wakeup is due at 2016-03-03 00:45:00+02:00 (in
+ 869.998000 seconds)
+03-Mar-16 00:34:23 INFO      Job "update_data (trigger: cron[day='*', hour='*/21
+', minute='*/30', second='*/30'], next run at: 2016-03-03 21:00:00 EET)" execute
+d successfully
+03-Mar-16 00:45:00 DEBUG     Looking for jobs to run
+03-Mar-16 00:45:00 INFO      Running job "watchthelist (trigger: cron[day='*', h
+our='*/21', minute='*/45', second='*/30'], next run at: 2016-03-03 00:45:00 EET)
+" (scheduled at 2016-03-03 00:45:00+02:00)
+03-Mar-16 00:45:00 DEBUG     Next wakeup is due at 2016-03-03 00:45:30+02:00 (in
+ 29.992000 seconds)
+watchthelist: SELL UWTI
+watchthelist: SELL UVXY
+03-Mar-16 00:45:02 INFO      Job "watchthelist (trigger: cron[day='*', hour='*/2
+1', minute='*/45', second='*/30'], next run at: 2016-03-03 00:45:30 EET)" execut
+ed successfully
+03-Mar-16 00:45:30 DEBUG     Looking for jobs to run
+03-Mar-16 00:45:30 INFO      Running job "watchthelist (trigger: cron[day='*', h
+our='*/21', minute='*/45', second='*/30'], next run at: 2016-03-03 00:45:30 EET)
+" (scheduled at 2016-03-03 00:45:30+02:00)
+03-Mar-16 00:45:30 DEBUG     Next wakeup is due at 2016-03-03 00:51:00+02:00 (in
+ 329.996000 seconds)
+watchthelist: SELL UWTI
+watchthelist: SELL UVXY
+03-Mar-16 00:45:32 INFO      Job "watchthelist (trigger: cron[day='*', hour='*/2
+1', minute='*/45', second='*/30'], next run at: 2016-03-03 21:00:00 EET)" execut
+ed successfully
+03-Mar-16 00:51:00 DEBUG     Looking for jobs to run
+03-Mar-16 00:51:00 INFO      Running job "autogettoday (trigger: cron[day='*', h
+our='*/21', minute='*/51', second='*/30'], next run at: 2016-03-03 00:51:30 EET)
+" (scheduled at 2016-03-03 00:51:00+02:00)
+i am be called
+03-Mar-16 00:51:00 DEBUG     Next wakeup is due at 2016-03-03 00:51:30+02:00 (in
+ 29.997000 seconds)
+03-Mar-16 00:51:03 INFO      new stock to trade  :AMUB
+03-Mar-16 00:51:10 INFO      new stock to trade  :BTX
+03-Mar-16 00:51:13 INFO      new stock to trade  :CGEN
+03-Mar-16 00:51:14 INFO      new stock to trade  :CKEC
+03-Mar-16 00:51:15 INFO      new stock to trade  :CNX
+03-Mar-16 00:51:18 INFO      new stock to trade  :CYAD
+03-Mar-16 00:51:22 INFO      new stock to trade  :DYY
+03-Mar-16 00:51:22 INFO      new stock to trade  :EDC
+03-Mar-16 00:51:23 INFO      new stock to trade  :EE
+03-Mar-16 00:51:24 INFO      new stock to trade  :EMDD
+03-Mar-16 00:51:26 INFO      new stock to trade  :EXCU
+03-Mar-16 00:51:28 INFO      new stock to trade  :FGB
+03-Mar-16 00:51:29 INFO      new stock to trade  :FOXF
+03-Mar-16 00:51:30 DEBUG     Looking for jobs to run
+03-Mar-16 00:51:30 WARNING   Execution of job "autogettoday (trigger: cron[day='
+*', hour='*/21', minute='*/51', second='*/30'], next run at: 2016-03-03 00:51:30
+ EET)" skipped: maximum number of running instances reached (1)
+03-Mar-16 00:51:30 DEBUG     Next wakeup is due at 2016-03-03 00:55:00+02:00 (in
+ 209.998000 seconds)
+03-Mar-16 00:51:30 INFO      new stock to trade  :FSFG
+03-Mar-16 00:51:30 INFO      new stock to trade  :FXCM
+03-Mar-16 00:51:32 INFO      new stock to trade  :GMLP
+03-Mar-16 00:51:33 INFO      new stock to trade  :GNBC
+03-Mar-16 00:51:33 INFO      new stock to trade  :GSV
+03-Mar-16 00:51:34 INFO      new stock to trade  :GWGH
+03-Mar-16 00:51:34 INFO      new stock to trade  :GZT
+03-Mar-16 00:51:34 INFO      new stock to trade  :HAKK
+03-Mar-16 00:51:35 INFO      new stock to trade  :HERO
+03-Mar-16 00:51:36 INFO      new stock to trade  :HOTR
+03-Mar-16 00:51:37 INFO      new stock to trade  :HZN
+03-Mar-16 00:51:40 INFO      new stock to trade  :IPCC
+03-Mar-16 00:51:42 INFO      new stock to trade  :JONE
+03-Mar-16 00:51:43 INFO      new stock to trade  :KATE
+03-Mar-16 00:51:45 INFO      new stock to trade  :LGCYO
+03-Mar-16 00:51:46 INFO      new stock to trade  :LTRPB
+03-Mar-16 00:51:50 INFO      new stock to trade  :MSB
+03-Mar-16 00:51:51 INFO      new stock to trade  :MT
+03-Mar-16 00:51:51 INFO      new stock to trade  :MTBC
+03-Mar-16 00:51:51 INFO      new stock to trade  :MTR
+03-Mar-16 00:51:51 INFO      new stock to trade  :MVG
+03-Mar-16 00:51:53 INFO      new stock to trade  :NEO
+03-Mar-16 00:51:55 INFO      new stock to trade  :NVGS
+03-Mar-16 00:51:55 INFO      new stock to trade  :NYLD
+03-Mar-16 00:51:57 INFO      new stock to trade  :ORPN
+03-Mar-16 00:51:59 INFO      new stock to trade  :PGND
+03-Mar-16 00:52:03 INFO      new stock to trade  :RAIL
+03-Mar-16 00:52:07 INFO      new stock to trade  :SBSA
+03-Mar-16 00:52:10 INFO      new stock to trade  :SPIR
+03-Mar-16 00:52:11 INFO      new stock to trade  :SPMD
+03-Mar-16 00:52:14 INFO      new stock to trade  :TESO
+03-Mar-16 00:52:16 INFO      new stock to trade  :TROVW
+03-Mar-16 00:52:18 INFO      new stock to trade  :USV
+03-Mar-16 00:52:19 INFO      new stock to trade  :UXJ
+03-Mar-16 00:52:19 INFO      new stock to trade  :VHI
+03-Mar-16 00:52:22 INFO      new stock to trade  :WR
+today at last :
+['CNX', 'HLX', 'EE']
+03-Mar-16 00:52:24 INFO      Job "autogettoday (trigger: cron[day='*', hour='*/2
+1', minute='*/51', second='*/30'], next run at: 2016-03-03 21:00:00 EET)" execut
+ed successfully
+03-Mar-16 00:55:00 DEBUG     Looking for jobs to run
+03-Mar-16 00:55:00 DEBUG     Next wakeup is due at 2016-03-03 00:55:30+02:00 (in
+ 29.990000 seconds)
+03-Mar-16 00:55:00 INFO      Running job "del_today_conf (trigger: cron[day='*',
+ hour='*/23', minute='*/55', second='*/30'], next run at: 2016-03-03 00:55:30 EE
+T)" (scheduled at 2016-03-03 00:55:00+02:00)
+03-Mar-16 00:55:00 INFO      Job "del_today_conf (trigger: cron[day='*', hour='*
+/23', minute='*/55', second='*/30'], next run at: 2016-03-03 00:55:30 EET)" exec
+uted successfully
+03-Mar-16 00:55:00 INFO      new order generate :15325
+symbol: RMP  action: BUY volume: 147
+03-Mar-16 00:55:01 INFO      new order generate :15326
+symbol: FIX  action: BUY volume: 117
+03-Mar-16 00:55:02 INFO      new order generate :15327
+symbol: KEYS  action: BUY volume: 130
+03-Mar-16 00:55:03 INFO      new order generate :15328
+symbol: VNCE  action: BUY volume: 192
+03-Mar-16 00:55:04 INFO      new order generate :15329
+symbol: KATE  action: BUY volume: 176
+03-Mar-16 00:55:05 INFO      new order generate :15330
+symbol: RMP  action: BUY volume: 147
+03-Mar-16 00:55:06 INFO      new order generate :15331
+symbol: CZR  action: BUY volume: 486
+03-Mar-16 00:55:30 DEBUG     Looking for jobs to run
+03-Mar-16 00:55:30 INFO      Running job "del_today_conf (trigger: cron[day='*',
+ hour='*/23', minute='*/55', second='*/30'], next run at: 2016-03-03 00:55:30 EE
+T)" (scheduled at 2016-03-03 00:55:30+02:00)
+03-Mar-16 00:55:30 DEBUG     Next wakeup is due at 2016-03-03 01:00:00+02:00 (in
+ 269.988000 seconds)
+03-Mar-16 00:55:30 INFO      Job "del_today_conf (trigger: cron[day='*', hour='*
+/23', minute='*/55', second='*/30'], next run at: 2016-03-03 23:00:00 EET)" exec
+uted successfully
+03-Mar-16 00:55:38 INFO      new order generate :15332
+symbol: RMP  action: BUY volume: 147
+03-Mar-16 00:55:39 INFO      new order generate :15333
+symbol: FIX  action: BUY volume: 117
+03-Mar-16 00:55:40 INFO      new order generate :15334
+symbol: KEYS  action: BUY volume: 130
+03-Mar-16 00:55:41 INFO      new order generate :15335
+symbol: VNCE  action: BUY volume: 192
+03-Mar-16 00:55:42 INFO      new order generate :15336
+symbol: KATE  action: BUY volume: 176
+03-Mar-16 00:55:43 INFO      new order generate :15337
+symbol: RMP  action: BUY volume: 147
+03-Mar-16 00:55:45 INFO      new order generate :15338
+symbol: CZR  action: BUY volume: 486
+03-Mar-16 01:00:00 DEBUG     Looking for jobs to run
+03-Mar-16 01:00:00 INFO      Running job "show_account_info (trigger: cron[day='
+*', hour='*/1'], next run at: 2016-03-03 01:00:00 EET)" (scheduled at 2016-03-03
+ 01:00:00+02:00)
+d0aytradesremaining:13-Mar-16 01:00:00 DEBUG     Next wakeup is due at 2016-03-0
+3 02:00:00+02:00 (in 3599.998000 seconds)
+
+daytradesremainingt1:1
+
+
+my level : -2.06891283264
+currentamount:9032.28
+unrealized:-583.94
+buyingpower:5289.52
+stockvalue:-18687
+cashbalance:27726
+03-Mar-16 01:00:00 INFO      Job "show_account_info (trigger: cron[day='*', hour
+='*/1'], next run at: 2016-03-03 02:00:00 EET)" executed successfully
+<urlopen error [Errno 10060] >
+03-Mar-16 02:00:00 DEBUG     Looking for jobs to run
+03-Mar-16 02:00:00 INFO      Running job "show_account_info (trigger: cron[day='
+*', hour='*/1'], next run at: 2016-03-03 02:00:00 EET)" (scheduled at 2016-03-03
+ 02:00:00+02:00)
+d0aytradesremaining:13-Mar-16 02:00:00 DEBUG     Next wakeup is due at 2016-03-0
+3 03:00:00+02:00 (in 3599.985000 seconds)
+
+daytradesremainingt1:1
+
+
+my level : -2.06891283264
+currentamount:9032.28
+unrealized:-583.94
+buyingpower:5289.52
+stockvalue:-18687
+cashbalance:27726
+03-Mar-16 02:00:00 INFO      Job "show_account_info (trigger: cron[day='*', hour
+='*/1'], next run at: 2016-03-03 03:00:00 EET)" executed successfully
+
+
+
+
+
+
+
+
+
+
+
+[2016-03-03]
+trade = {"PGND": 4, "TITN": 4, "LTRPB": 4, "CGEN": 4, "WK": 4, "MGLN": 4, "HAKK": 4, "USV": -3, "CYAD": 4, "VHI": 4, "ERII": 4, "TROVW": 4, "KOS": 4, "TSU": 4, "KATE": 4, "FXCM": 4, "CKEC": 4, "IRWD": 4, "DYY": 4, "STRZA": 4, "SIEN": -3, "JONE": 4, "AMUB": 4, "UXJ": 4, "GNBC": 4, "SPIR": -3, "GV": 4, "MTR": -3, "IMH": -3, "RAIL": -3, "NVGS": 4, "SBSA": 4, "XTLY": 4, "MVG": -3, "BLDR": 4, "GWGH": 3, "SMTC": 4, "SPMD": 3, "NRP": 3, "HOTR": 4, "HIMX": 4, "HLX": 4, "BTX": 4, "FOXF": 4, "FGB": 4, "LAZ": 4, "GZT": 4, "GENE": -3, "FSFG": -3}
+enginename = enginename
+
+[2016-03-04]
+trade = {"PGND": 3, "TITN": 4, "LTRPB": 4, "CGEN": 4, "WK": 4, "MGLN": 4, "HAKK": 4, "USV": -3, "CYAD": 4, "VHI": 4, "TESO": 4, "MTBC": 4, "ERII": 4, "GMLP": 4, "TROVW": 4, "KOS": 4, "TSU": 4, "KATE": 4, "FXCM": 4, "CKEC": 4, "IRWD": 4, "DYY": 4, "CNX": 4, "STRZA": 4, "MSB": 4, "EE": -3, "SIEN": -3, "JONE": 4, "AMUB": 4, "UXJ": 4, "GNBC": 4, "LGCYO": -3, "SPIR": -3, "GV": 4, "NYLD": 4, "EXCU": -3, "HERO": 4, "EMDD": -3, "IPCC": -3, "MTR": -3, "IMH": -3, "HZN": 4, "RAIL": -3, "ORPN": -3, "NVGS": 4, "SBSA": 4, "XTLY": 4, "MVG": -3, "BLDR": 4, "GWGH": 3, "NEO": 4, "SMTC": 4, "EDC": 4, "SPMD": 3, "NRP": 3, "HOTR": 4, "HIMX": 4, "HLX": 4, "BTX": 4, "FOXF": 4, "MT": 4, "FGB": 4, "LAZ": 4, "GSV": 4, "GZT": 4, "GENE": -3, "FSFG": -3, "WR": -3}
+enginename = enginename
+
+
+
+[did]
+fix = 1
+keys = 1
+vnce = 1
+kate = 1
+rmp = 1
+czr = 1
+
+
+
+
+04-Mar-16 00:00:12 INFO      new stock to trade  :BOBE
+04-Mar-16 00:00:12 INFO      new order generate :15393
+symbol: VNCE  action: SELL volume: 192
+04-Mar-16 00:00:13 INFO      new stock to trade  :BRE
+04-Mar-16 00:00:13 INFO      new order generate :15394
+symbol: TVIX  action: SELL volume: 84
+04-Mar-16 00:00:14 INFO      new stock to trade  :BV
+04-Mar-16 00:00:14 INFO      new order generate :15395
+symbol: FIX  action: SELL volume: 117
+04-Mar-16 00:00:14 INFO      new stock to trade  :CAI
+04-Mar-16 00:00:15 INFO      new order generate :15396
+symbol: KEYS  action: SELL volume: 130
+04-Mar-16 00:00:16 INFO      new stock to trade  :CCIH
+04-Mar-16 00:00:16 INFO      new stock to trade  :CDI
+04-Mar-16 00:00:16 INFO      new order generate :15397
+symbol: KATE  action: SELL volume: 176
+04-Mar-16 00:00:17 INFO      new stock to trade  :CGEN
+04-Mar-16 00:00:18 INFO      new stock to trade  :CIE
+04-Mar-16 00:00:22 INFO      new stock to trade  :CSBR
+04-Mar-16 00:00:24 INFO      new stock to trade  :CYRX
+04-Mar-16 00:00:28 INFO      new order generate :15398
+symbol: FHCO  action: BUY volume: 458
+04-Mar-16 00:00:30 DEBUG     Looking for jobs to run
+04-Mar-16 00:00:30 WARNING   Execution of job "update_data (trigger: cron[day='*
+', hour='*/21', minute='*/37', second='*/30'], next run at: 2016-03-04 00:00:30
+EET)" skipped: maximum number of running instances reached (1)
+04-Mar-16 00:00:30 WARNING   Execution of job "autogettoday (trigger: cron[day='
+*', hour='*/21', minute='*/51', second='*/30'], next run at: 2016-03-04 00:00:30
+ EET)" skipped: maximum number of running instances reached (1)
+04-Mar-16 00:00:30 INFO      Running job "watchthelist (trigger: cron[day='*', h
+our='*/21', minute='*/45', second='*/30'], next run at: 2016-03-04 00:45:00 EET)
+" (scheduled at 2016-03-04 00:00:30+02:00)
+04-Mar-16 00:00:30 INFO      Running job "del_today_conf (trigger: cron[day='*',
+ hour='*/23', minute='*/56', second='*/30'], next run at: 2016-03-04 00:00:30 EE
+T)" (scheduled at 2016-03-04 00:00:30+02:00)
+04-Mar-16 00:00:30 DEBUG     Next wakeup is due at 2016-03-04 00:37:00+02:00 (in
+ 2189.965000 seconds)
+04-Mar-16 00:00:30 INFO      Job "del_today_conf (trigger: cron[day='*', hour='*
+/23', minute='*/56', second='*/30'], next run at: 2016-03-04 00:56:00 EET)" exec
+uted successfully
+watchthelist: SELL UWTI
+04-Mar-16 00:00:31 INFO      Job "watchthelist (trigger: cron[day='*', hour='*/2
+1', minute='*/45', second='*/30'], next run at: 2016-03-04 00:45:00 EET)" execut
+ed successfully
+04-Mar-16 00:00:33 INFO      new stock to trade  :ERII
+04-Mar-16 00:00:34 INFO      new stock to trade  :EVDY
+04-Mar-16 00:00:37 INFO      new stock to trade  :FLTX
+04-Mar-16 00:00:38 INFO      new stock to trade  :FOR
+04-Mar-16 00:00:39 INFO      new order generate :15399
+symbol: FHCO  action: BUY volume: 458
+04-Mar-16 00:00:40 INFO      new order generate :15400
+symbol: CGEN  action: BUY volume: 187
+04-Mar-16 00:00:41 INFO      new order generate :15401
+symbol: CZR  action: SELL volume: 486
+04-Mar-16 00:00:42 INFO      new order generate :15402
+symbol: PCOM  action: SELL volume: 111
+04-Mar-16 00:00:43 INFO      new order generate :15403
+symbol: VNCE  action: SELL volume: 192
+04-Mar-16 00:00:45 INFO      new order generate :15404
+symbol: TVIX  action: SELL volume: 84
+04-Mar-16 00:00:45 INFO      new order generate :15405
+symbol: FIX  action: SELL volume: 117
+04-Mar-16 00:00:46 INFO      new order generate :15406
+symbol: KEYS  action: SELL volume: 130
+04-Mar-16 00:00:47 INFO      new order generate :15407
+symbol: KATE  action: SELL volume: 176
+04-Mar-16 00:00:49 INFO      new stock to trade  :IBMJ
+04-Mar-16 00:00:55 INFO      new stock to trade  :JJG
+04-Mar-16 00:00:56 INFO      new stock to trade  :JUNO
+04-Mar-16 00:00:59 INFO      new order generate :15408
+symbol: FHCO  action: BUY volume: 458
+04-Mar-16 00:01:02 INFO      new stock to trade  :MBI
+04-Mar-16 00:01:05 INFO      new stock to trade  :MOBL
+04-Mar-16 00:01:14 INFO      new stock to trade  :OHGI
+04-Mar-16 00:01:16 INFO      new stock to trade  :PCOM
+04-Mar-16 00:01:22 INFO      new stock to trade  :PXLW
+04-Mar-16 00:01:23 INFO      new stock to trade  :QLYS
+04-Mar-16 00:01:26 INFO      new stock to trade  :RUN
+04-Mar-16 00:01:29 INFO      new stock to trade  :SEDG
+04-Mar-16 00:01:29 INFO      new stock to trade  :SEV
+04-Mar-16 00:01:32 INFO      new stock to trade  :SNHY
+04-Mar-16 00:01:33 INFO      new stock to trade  :SPMD
+04-Mar-16 00:01:34 INFO      new stock to trade  :SSYS
+04-Mar-16 00:01:38 INFO      new stock to trade  :TISA
+04-Mar-16 00:01:40 INFO      new stock to trade  :TVL
+04-Mar-16 00:01:41 INFO      new stock to trade  :TX
+04-Mar-16 00:01:42 INFO      new stock to trade  :UNG
+04-Mar-16 00:01:50 INFO      new stock to trade  :XTLY
+today at last :
+['RJA', 'SHOP', 'UNG']
+04-Mar-16 00:01:51 INFO      Job "autogettoday (trigger: cron[day='*', hour='*/2
+1', minute='*/51', second='*/30'], next run at: 2016-03-04 00:51:00 EET)" execut
+ed successfully
+04-Mar-16 00:06:02 INFO      Job "update_data (trigger: cron[day='*', hour='*/21
+', minute='*/37', second='*/30'], next run at: 2016-03-04 00:37:00 EET)" execute
+d successfully
+04-Mar-16 00:37:00 DEBUG     Looking for jobs to run
+04-Mar-16 00:37:00 DEBUG     Next wakeup is due at 2016-03-04 00:37:30+02:00 (in
+ 29.967000 seconds)
+04-Mar-16 00:37:00 INFO      Running job "update_data (trigger: cron[day='*', ho
+ur='*/21', minute='*/37', second='*/30'], next run at: 2016-03-04 00:37:30 EET)"
+ (scheduled at 2016-03-04 00:37:00+02:00)
+04-Mar-16 00:37:30 DEBUG     Looking for jobs to run
+04-Mar-16 00:37:30 WARNING   Execution of job "update_data (trigger: cron[day='*
+', hour='*/21', minute='*/37', second='*/30'], next run at: 2016-03-04 00:37:30
+EET)" skipped: maximum number of running instances reached (1)
+04-Mar-16 00:37:30 DEBUG     Next wakeup is due at 2016-03-04 00:45:00+02:00 (in
+ 449.999000 seconds)
+04-Mar-16 00:41:24 INFO      Job "update_data (trigger: cron[day='*', hour='*/21
+', minute='*/37', second='*/30'], next run at: 2016-03-04 21:00:00 EET)" execute
+d successfully
+04-Mar-16 00:45:00 DEBUG     Looking for jobs to run
+04-Mar-16 00:45:00 INFO      Running job "watchthelist (trigger: cron[day='*', h
+our='*/21', minute='*/45', second='*/30'], next run at: 2016-03-04 00:45:00 EET)
+" (scheduled at 2016-03-04 00:45:00+02:00)
+04-Mar-16 00:45:00 DEBUG     Next wakeup is due at 2016-03-04 00:45:30+02:00 (in
+ 29.991000 seconds)
+watchthelist: SELL UWTI
+04-Mar-16 00:45:01 INFO      Job "watchthelist (trigger: cron[day='*', hour='*/2
+1', minute='*/45', second='*/30'], next run at: 2016-03-04 00:45:30 EET)" execut
+ed successfully
+04-Mar-16 00:45:30 DEBUG     Looking for jobs to run
+04-Mar-16 00:45:30 DEBUG     Next wakeup is due at 2016-03-04 00:51:00+02:00 (in
+ 329.998000 seconds)
+04-Mar-16 00:45:30 INFO      Running job "watchthelist (trigger: cron[day='*', h
+our='*/21', minute='*/45', second='*/30'], next run at: 2016-03-04 21:00:00 EET)
+" (scheduled at 2016-03-04 00:45:30+02:00)
+watchthelist: SELL UWTI
+04-Mar-16 00:45:32 INFO      Job "watchthelist (trigger: cron[day='*', hour='*/2
+1', minute='*/45', second='*/30'], next run at: 2016-03-04 21:00:00 EET)" execut
+ed successfully
+04-Mar-16 00:51:00 DEBUG     Looking for jobs to run
+04-Mar-16 00:51:00 INFO      Running job "autogettoday (trigger: cron[day='*', h
+our='*/21', minute='*/51', second='*/30'], next run at: 2016-03-04 00:51:30 EET)
+" (scheduled at 2016-03-04 00:51:00+02:00)
+i0 am be called4-Mar-16 00:51:00 DEBUG     Next wakeup is due at 2016-03-04 00:5
+1:30+02:00 (in 29.999000 seconds)
+
+04-Mar-16 00:51:00 INFO      new stock to trade  :ACRX
+04-Mar-16 00:51:03 INFO      new stock to trade  :AMDA
+04-Mar-16 00:51:07 INFO      new stock to trade  :BBL
+04-Mar-16 00:51:07 INFO      new stock to trade  :BELFA
+04-Mar-16 00:51:08 INFO      new stock to trade  :BHP
+04-Mar-16 00:51:09 INFO      new stock to trade  :BOBE
+04-Mar-16 00:51:10 INFO      new stock to trade  :BRE
+04-Mar-16 00:51:10 INFO      new stock to trade  :BV
+04-Mar-16 00:51:11 INFO      new stock to trade  :BXE
+04-Mar-16 00:51:11 INFO      new stock to trade  :CAI
+04-Mar-16 00:51:12 INFO      new stock to trade  :CCIH
+04-Mar-16 00:51:12 INFO      new stock to trade  :CDI
+04-Mar-16 00:51:12 INFO      new stock to trade  :CDRB
+04-Mar-16 00:51:13 INFO      new stock to trade  :CGEN
+04-Mar-16 00:51:14 INFO      new stock to trade  :CIE
+04-Mar-16 00:51:14 INFO      new stock to trade  :CLD
+04-Mar-16 00:51:15 INFO      new stock to trade  :CNFR
+04-Mar-16 00:51:16 INFO      new stock to trade  :COPX
+04-Mar-16 00:51:17 INFO      new stock to trade  :CRZO
+04-Mar-16 00:51:17 INFO      new stock to trade  :CSBR
+04-Mar-16 00:51:17 INFO      new stock to trade  :CSTM
+04-Mar-16 00:51:23 INFO      new stock to trade  :EDC
+04-Mar-16 00:51:23 INFO      new stock to trade  :EDGE
+04-Mar-16 00:51:25 INFO      new stock to trade  :ERF
+04-Mar-16 00:51:25 INFO      new stock to trade  :ERII
+04-Mar-16 00:51:25 INFO      new stock to trade  :ERX
+04-Mar-16 00:51:26 INFO      new stock to trade  :EVDY
+04-Mar-16 00:51:29 INFO      new stock to trade  :FLTX
+04-Mar-16 00:51:29 INFO      new stock to trade  :FMI
+04-Mar-16 00:51:29 INFO      new stock to trade  :FMSA
+04-Mar-16 00:51:29 INFO      new stock to trade  :FOR
+04-Mar-16 00:51:30 DEBUG     Looking for jobs to run
+04-Mar-16 00:51:30 WARNING   Execution of job "autogettoday (trigger: cron[day='
+*', hour='*/21', minute='*/51', second='*/30'], next run at: 2016-03-04 00:51:30
+ EET)" skipped: maximum number of running instances reached (1)
+04-Mar-16 00:51:30 DEBUG     Next wakeup is due at 2016-03-04 00:56:00+02:00 (in
+ 269.994000 seconds)
+04-Mar-16 00:51:35 INFO      new stock to trade  :HHS
+04-Mar-16 00:51:40 INFO      new stock to trade  :IRWD
+04-Mar-16 00:51:41 INFO      new stock to trade  :ITUB
+04-Mar-16 00:51:42 INFO      new stock to trade  :JJG
+04-Mar-16 00:51:43 INFO      new stock to trade  :JUNO
+04-Mar-16 00:51:44 INFO      new stock to trade  :KPTI
+04-Mar-16 00:51:44 INFO      new stock to trade  :KRS
+04-Mar-16 00:51:45 INFO      new stock to trade  :KYE
+04-Mar-16 00:51:48 INFO      new stock to trade  :MBI
+04-Mar-16 00:51:50 INFO      new stock to trade  :MLN
+04-Mar-16 00:51:50 INFO      new stock to trade  :MOBL
+04-Mar-16 00:51:52 INFO      new stock to trade  :MUR
+04-Mar-16 00:51:52 INFO      new stock to trade  :NADL
+04-Mar-16 00:51:53 INFO      new stock to trade  :NAV
+04-Mar-16 00:51:57 INFO      new stock to trade  :OHGI
+04-Mar-16 00:51:59 INFO      new stock to trade  :PCOM
+04-Mar-16 00:52:01 INFO      new stock to trade  :PKX
+04-Mar-16 00:52:03 INFO      new stock to trade  :PWE
+04-Mar-16 00:52:03 INFO      new stock to trade  :PXLW
+04-Mar-16 00:52:04 INFO      new stock to trade  :QLYS
+04-Mar-16 00:52:05 INFO      new stock to trade  :RIG
+04-Mar-16 00:52:07 INFO      new stock to trade  :RUN
+04-Mar-16 00:52:07 INFO      new stock to trade  :RZA
+04-Mar-16 00:52:07 INFO      new stock to trade  :SAN
+04-Mar-16 00:52:08 INFO      new stock to trade  :SEDG
+04-Mar-16 00:52:09 INFO      new stock to trade  :SEV
+04-Mar-16 00:52:09 INFO      new stock to trade  :SHOP
+04-Mar-16 00:52:10 INFO      new stock to trade  :SIJ
+04-Mar-16 00:52:11 INFO      new stock to trade  :SNHY
+04-Mar-16 00:52:12 INFO      new stock to trade  :SPMD
+04-Mar-16 00:52:12 INFO      new stock to trade  :SSYS
+04-Mar-16 00:52:13 INFO      new stock to trade  :STLD
+04-Mar-16 00:52:16 INFO      new stock to trade  :TISA
+04-Mar-16 00:52:16 INFO      new stock to trade  :TPLM
+04-Mar-16 00:52:17 INFO      new stock to trade  :TRQ
+04-Mar-16 00:52:18 INFO      new stock to trade  :TVIZ
+04-Mar-16 00:52:18 INFO      new stock to trade  :TVL
+04-Mar-16 00:52:18 INFO      new stock to trade  :TX
+04-Mar-16 00:52:18 INFO      new stock to trade  :UBR
+04-Mar-16 00:52:19 INFO      new stock to trade  :UNG
+04-Mar-16 00:52:20 INFO      new stock to trade  :UWTI
+04-Mar-16 00:52:22 INFO      new stock to trade  :VSTM
+04-Mar-16 00:52:25 INFO      new stock to trade  :XTLY
+today at last :
+['DPST', 'IESC', 'PXLW']
+04-Mar-16 00:52:26 INFO      Job "autogettoday (trigger: cron[day='*', hour='*/2
+1', minute='*/51', second='*/30'], next run at: 2016-03-04 21:00:00 EET)" execut
+ed successfully
+04-Mar-16 00:56:00 DEBUG     Looking for jobs to run
+04-Mar-16 00:56:00 INFO      Running job "del_today_conf (trigger: cron[day='*',
+ hour='*/23', minute='*/56', second='*/30'], next run at: 2016-03-04 00:56:30 EE
+T)" (scheduled at 2016-03-04 00:56:00+02:00)
+04-Mar-16 00:56:00 DEBUG     Next wakeup is due at 2016-03-04 00:56:30+02:00 (in
+ 29.990000 seconds)
+04-Mar-16 00:56:00 INFO      Job "del_today_conf (trigger: cron[day='*', hour='*
+/23', minute='*/56', second='*/30'], next run at: 2016-03-04 00:56:30 EET)" exec
+uted successfully
+04-Mar-16 00:56:09 INFO      new order generate :15409
+symbol: FHCO  action: BUY volume: 458
+04-Mar-16 00:56:10 INFO      new order generate :15410
+symbol: CGEN  action: BUY volume: 187
+04-Mar-16 00:56:11 INFO      new order generate :15411
+symbol: CZR  action: SELL volume: 486
+04-Mar-16 00:56:12 INFO      new order generate :15412
+symbol: PCOM  action: SELL volume: 111
+04-Mar-16 00:56:13 INFO      new order generate :15413
+symbol: VNCE  action: SELL volume: 192
+04-Mar-16 00:56:14 INFO      new order generate :15414
+symbol: TVIX  action: SELL volume: 84
+04-Mar-16 00:56:15 INFO      new order generate :15415
+symbol: FIX  action: SELL volume: 117
+04-Mar-16 00:56:16 INFO      new order generate :15416
+symbol: KEYS  action: SELL volume: 130
+04-Mar-16 00:56:16 INFO      new order generate :15417
+symbol: KATE  action: SELL volume: 176
+04-Mar-16 00:56:28 INFO      new order generate :15418
+symbol: FHCO  action: BUY volume: 458
+04-Mar-16 00:56:30 DEBUG     Looking for jobs to run
+04-Mar-16 00:56:30 DEBUG     Next wakeup is due at 2016-03-04 02:00:00+02:00 (in
+ 3809.997000 seconds)
+04-Mar-16 00:56:30 INFO      Running job "del_today_conf (trigger: cron[day='*',
+ hour='*/23', minute='*/56', second='*/30'], next run at: 2016-03-04 23:00:00 EE
+T)" (scheduled at 2016-03-04 00:56:30+02:00)
+04-Mar-16 00:56:30 INFO      Job "del_today_conf (trigger: cron[day='*', hour='*
+/23', minute='*/56', second='*/30'], next run at: 2016-03-04 23:00:00 EET)" exec
+uted successfully
+04-Mar-16 00:56:39 INFO      new order generate :15419
+symbol: FHCO  action: BUY volume: 458
+04-Mar-16 00:56:40 INFO      new order generate :15420
+symbol: CGEN  action: BUY volume: 187
+04-Mar-16 00:56:41 INFO      new order generate :15421
+symbol: CZR  action: SELL volume: 486
+04-Mar-16 00:56:42 INFO      new order generate :15422
+symbol: PCOM  action: SELL volume: 111
+04-Mar-16 00:56:43 INFO      new order generate :15423
+symbol: VNCE  action: SELL volume: 192
+04-Mar-16 00:56:44 INFO      new order generate :15424
+symbol: TVIX  action: SELL volume: 84
+04-Mar-16 00:56:45 INFO      new order generate :15425
+symbol: FIX  action: SELL volume: 117
+04-Mar-16 00:56:46 INFO      new order generate :15426
+symbol: KEYS  action: SELL volume: 130
+04-Mar-16 00:56:47 INFO      new order generate :15427
+symbol: KATE  action: SELL volume: 176
+04-Mar-16 00:56:58 INFO      new order generate :15428
+symbol: FHCO  action: BUY volume: 458
+04-Mar-16 02:00:00 DEBUG     Looking for jobs to run
+04-Mar-16 02:00:00 INFO      Running job "show_account_info (trigger: cron[day='
+*', hour='*/2'], next run at: 2016-03-04 02:00:00 EET)" (scheduled at 2016-03-04
+ 02:00:00+02:00)
+daytradesremaining:10
+4-Mar-16 02:00:00 DEBUG     Next wakeup is due at 2016-03-04 04:00:00+02:00 (in
+7199.999000 seconds)
+daytradesremainingt1:3
+
+
+my level : 2.13948638086
+currentamount:8707.23
+unrealized:-179.66
+buyingpower:8877.35
+stockvalue:18629
+cashbalance:-9914
+04-Mar-16 02:00:00 INFO      Job "show_account_info (trigger: cron[day='*', hour
+='*/2'], next run at: 2016-03-04 04:00:00 EET)" executed successfully
+
+
+
+[did]
+cgen = 1
+czr = 1
+pcom = 1
+vnce = 1
+tvix = 1
+fix = 1
+keys = 1
+kate = 1
+fhco = 1
+
+
+
+
+
+[2016-03-03]
+trade = {"DPST": 4, "CGEN": 4, "EMO": 4, "PCOM": 4, "BV": 4, "ERII": 4, "VISI": 4, "SEV": 4, "SSYS": 4, "IRWD": 4, "MBI": 4, "MOBL": 4, "FHCO": 4, "ITUB": 4, "TX": 4, "TVL": 4, "IMH": -3, "CYRX": 3, "SHOP": 4, "PBT": 4, "FOR": 4, "CCIH": 4, "PRTY": 4, "AMDA": 4, "BREW": 4, "VTEB": -3, "XTLY": 4, "UNG": -3, "CPPL": 4, "SNHY": 4, "IESC": 4, "TISA": 4, "SPMD": 3, "CSAL": 4, "ACRX": 4, "CAI": 4, "MBLY": 4, "RJA": -3, "JJG": -3, "BRE": 4, "QLYS": 4}
+enginename = enginename
+
+[2016-03-04]
+trade = {"DPST": 4, "CIE": 4, "CGEN": 4, "EMO": 4, "PCOM": 4, "CDI": 4, "BV": 4, "ERII": 4, "VISI": 4, "BELFA": 4, "SEV": 4, "SSYS": 4, "IRWD": 4, "MBI": 4, "MOBL": 4, "JUNO": 3, "IBMJ": -3, "FHCO": 4, "ITUB": 4, "TX": 4, "TVL": 4, "CSBR": 4, "OHGI": 4, "IMH": -3, "CYRX": 4, "EVDY": 4, "SHOP": 4, "PBT": 4, "FLTX": -3, "FOR": 4, "CCIH": 4, "BOBE": 4, "PRTY": 4, "AMDA": 4, "BREW": 4, "VTEB": -3, "XTLY": 4, "UNG": -3, "CPPL": 4, "SNHY": 4, "PXLW": 4, "IESC": 4, "TISA": 4, "SPMD": 3, "RUN": 3, "CSAL": 4, "ACRX": 4, "CAI": 4, "SEDG": 4, "MBLY": 4, "RJA": -3, "JJG": -3, "BRE": 4, "QLYS": 4}
+enginename = enginename
+
+[2016-03-05]
+trade = {"DPST": 4, "UNG": -3, "BV": 4, "NAV": 4, "ERII": 4, "SIJ": -3, "SSYS": 4, "IRWD": 4, "SAN": 4, "IESC": 4, "CRZO": 4, "CGEN": 4, "KYE": 4, "OHGI": 4, "RIG": 4, "TISA": 4, "CCIH": 4, "PXLW": 4, "XTLY": 4, "KPTI": 3, "IBMJ": -3, "STLD": 4, "SPMD": 3, "CSAL": 4, "UBR": 4, "ERF": 4, "CNFR": 4, "EMO": 4, "TPLM": 4, "PKX": 4, "MUR": 4, "PBT": 4, "FOR": 4, "BOBE": 4, "TRQ": 4, "SNHY": 4, "SEDG": 4, "BREW": 4, "QLYS": 4, "NADL": 4, "PCOM": 4, "ITUB": 4, "SEV": 4, "JUNO": 3, "MOBL": 4, "FMSA": 4, "EVDY": 4, "TVL": 4, "CSBR": 4, "CYRX": 4, "TVIZ": -3, "VSTM": 4, "BBL": 4, "CSTM": 4, "CLD": 4, "IMH": -3, "PRTY": 4, "FMI": 4, "CPPL": 4, "EDC": 4, "RUN": 3, "CDI": 4, "FLTX": -3, "JJG": -3, "BRE": 4, "CIE": 4, "UWTI": 4, "ERX": 3, "CAI": 4, "VISI": 4, "BXE": 4, "BELFA": 4, "MBI": 4, "TX": 4, "FHCO": 4, "PWE": 3, "KRS": -3, "SHOP": 4, "RZA": -3, "MLN": -3, "AMDA": 4, "VTEB": -3, "CDRB": 4, "COPX": 4, "HHS": 4, "ACRX": 4, "EDGE": 4, "MBLY": 4, "RJA": -3, "BHP": 4}
+enginename = enginename

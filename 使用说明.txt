@@ -1,0 +1,24 @@
+一
+模拟历史
+check  计算胜率
+moni   计算收益率 （与auto-ib-new一个逻辑）
+api-sim 模拟账户系统的api
+
+实时交易
+auto-ib-new  IB账户托管系统
+todaytrade   当日最新的筛选结果
+api-real     ib账户的操作api
+
+
+库
+tlib/pub  公共库
+tlib/qianyuan   交易员库
+engine  公用调用接口  中间层
+allstock  所有的美股代码列表
+
+
+
+
+工具
+train   根据不同指标，自动计算高胜率的指标组合 供将来研究改进
+plot    可以根据输入的股票，画出指标图形

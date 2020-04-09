@@ -1,0 +1,321 @@
+
+res=cacuer.volumeeffect(4,0.5).macd().show()
+0.601419878296
+good found
+0.601419878296
+
+res=cacuer.volumeeffect(4,0.5).cci().show()
+0.521232753987
+good found
+0.521232753987
+
+res=cacuer.ema(3,6).band(20,2,2).show()
+0.563282660609
+good found
+0.563282660609
+
+res=cacuer.ema(3,6).macd().show()
+0.606064671944
+good found
+0.606064671944
+
+res=cacuer.ema(3,6).cci().show()
+0.515141752577
+good found
+0.515141752577
+
+res=cacuer.ema(3,6).daysofpotential(60,0.15).show()
+0.607594936709
+good found
+0.607594936709
+
+res=cacuer.ema(3,6).recent(0.05,1,4).show()
+0.547436652917
+good found
+0.547436652917
+
+res=cacuer.ema(3,6).effection(7,0.5).show()
+0.634094754653
+good found
+0.634094754653
+
+res=cacuer.band(20,2,2).macd().show()
+0.593514654387
+good found
+0.593514654387
+
+res=cacuer.band(20,2,2).cci().show()
+0.523137794598
+good found
+0.523137794598
+
+res=cacuer.band(20,2,2).daysofpotential(60,0.15).show()
+0.577712609971
+good found
+0.577712609971
+
+res=cacuer.band(20,2,2).recent(0.05,1,4).show()
+0.555684454756
+good found
+0.555684454756
+
+res=cacuer.band(20,2,2).effection(7,0.5).show()
+0.585170340681
+good found
+0.585170340681
+
+0.6
+#记分器
+#######begin#######
+# calcustr=calcustr+'.daysofpotential(300,0.50)'
+calcustr=calcustr+'.recent(0.05,0.3,7)'
+calcustr=calcustr+'.effection(5,0.8)'
+# calcustr=calcustr+'.adx()'
+# calcustr=calcustr+'.cci()'
+# calcustr=calcustr+'.rsi()'
+# calcustr=calcustr+'.macd()'
+# calcustr=calcustr+'.price(5,50)'
+# calcustr=calcustr+'.band(30,2,2)'
+# calcustr=calcustr+'.sar(0,0)'
+calcustr=calcustr+'.ema(3,6)'
+calcustr=calcustr+'.volumeeffect(4,0.90)'
+########over########
+
+#过滤器
+fil=filtercontrol.load(st,stockk).volume(27000*3).price(5,150).effection(10,0.5).show()
+# print fil.do
+
+0.644067
+#记分器
+#######begin#######
+# calcustr=calcustr+'.daysofpotential(300,0.50)'
+calcustr=calcustr+'.recent(0.05,0.3,7)'
+calcustr=calcustr+'.effection(5,0.8)'
+# calcustr=calcustr+'.adx()'
+# calcustr=calcustr+'.cci()'
+# calcustr=calcustr+'.rsi()'
+# calcustr=calcustr+'.macd()'
+# calcustr=calcustr+'.price(5,50)'
+# calcustr=calcustr+'.band(30,2,2)'
+# calcustr=calcustr+'.sar(0,0)'
+calcustr=calcustr+'.ema(3,6)'
+calcustr=calcustr+'.volumeeffect(4,0.90)'
+########over########
+
+#过滤器
+fil=filtercontrol.load(st,stockk).volume(27000*3).price(5,150).effection(10,0.5).show()
+# print fil.do
+
+0.673469
+#######begin#######
+	# calcustr=calcustr+'.daysofpotential(300,0.50)'
+	calcustr=calcustr+'.recent(0.05,0.3,5)'
+	calcustr=calcustr+'.effection(5,0.9)'
+	# calcustr=calcustr+'.adx()'
+	# calcustr=calcustr+'.cci()'
+	# calcustr=calcustr+'.rsi()'
+	# calcustr=calcustr+'.macd()'
+	# calcustr=calcustr+'.price(5,50)'
+	# calcustr=calcustr+'.band(30,2,2)'
+	# calcustr=calcustr+'.sar(0,0)'
+	calcustr=calcustr+'.ema(3,6)'
+	calcustr=calcustr+'.volumeeffect(3,0.95)'
+	########over########
+
+	#过滤器
+	fil=filtercontrol.load(st,stockk).volume(10000*10*10).price(5,150).effection(10,0.6).show()
+	# print fil.do
+
+0.679487
+#######begin#######
+	# calcustr=calcustr+'.daysofpotential(300,0.50)'
+	calcustr=calcustr+'.recent(0.05,0.3,5)'
+	calcustr=calcustr+'.effection(5,0.9)'
+	# calcustr=calcustr+'.adx()'
+	# calcustr=calcustr+'.cci()'
+	# calcustr=calcustr+'.rsi()'
+	# calcustr=calcustr+'.macd()'
+	# calcustr=calcustr+'.price(5,50)'
+	# calcustr=calcustr+'.band(30,2,2)'
+	# calcustr=calcustr+'.sar(0,0)'
+	calcustr=calcustr+'.ema(3,6)'
+	calcustr=calcustr+'.volumeeffect(3,0.95)'
+	########over########
+
+	#过滤器
+	fil=filtercontrol.load(st,stockk).volume(10000*10*10*5).price(5,150).effection(10,0.6).show()
+	# print fil.do
+
+0.76744
+#######begin#######
+	# calcustr=calcustr+'.daysofpotential(300,0.50)'
+	calcustr=calcustr+'.recent(0.1,0.2,5)'
+	calcustr=calcustr+'.effection(5,0.7)'
+	# calcustr=calcustr+'.adx()'
+	# calcustr=calcustr+'.cci()'
+	# calcustr=calcustr+'.rsi()'
+	# calcustr=calcustr+'.macd()'
+	# calcustr=calcustr+'.price(5,50)'
+	# calcustr=calcustr+'.band(30,2,2)'
+	# calcustr=calcustr+'.sar(0,0)'
+	calcustr=calcustr+'.ema(3,6)'
+	calcustr=calcustr+'.volumeeffect(3,0.95)'
+	########over########
+
+	#过滤器
+	fil=filtercontrol.load(st,stockk).volume(10000*10*10*5).price(5,150).effection(10,0.6).show()
+	# print fil.do
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===============以下是老的结果，不可信===============
+
+
+0.57169
+#######begin#######
+calcustr=calcustr+'.macd()'
+calcustr=calcustr+'.band(20,2,2)'
+calcustr=calcustr+'.volumeeffect(4,0.5)'
+########over########
+
+0.57770
+#######begin#######
+calcustr=calcustr+'.ema(3,6)'
+calcustr=calcustr+'.volumeeffect(4,0.5)'
+########over########
+
+0.54324
+#######begin#######
+calcustr=calcustr+'.band(20,2,2)'
+calcustr=calcustr+'.volumeeffect(4,0.5)'
+########over########
+
+0.58813
+#######begin#######
+calcustr=calcustr+'.band(20,2,2)'
+calcustr=calcustr+'.ema(3,6)'
+########over########
+
+0.52642
+#######begin#######
+calcustr=calcustr+'.rsi()'
+calcustr=calcustr+'.ema(3,6)'
+########over########
+
+0.56585
+#######begin#######
+calcustr=calcustr+'.macd()'
+calcustr=calcustr+'.ema(3,6)'
+########over########
+
+0.56557
+#######begin#######
+calcustr=calcustr+'.macd()'
+calcustr=calcustr+'.band(20,2,2)'
+########over########
+
+0.50918
+#######begin#######
+calcustr=calcustr+'.rsi()'
+calcustr=calcustr+'.band(20,2,2)'
+########over########
+
+0.51069
+#######begin#######
+calcustr=calcustr+'.rsi()'
+calcustr=calcustr+'.macd()'
+########over########
+
+0.51069
+#######begin#######
+calcustr=calcustr+'.rsi()'
+calcustr=calcustr+'.macd()'
+########over########
+
+0.53246
+#######begin#######
+calcustr=calcustr+'.rsi()'
+calcustr=calcustr+'.daysofpotential(120,0.90)'
+########over########
+
+0.56235
+#######begin#######
+calcustr=calcustr+'.rsi()'
+calcustr=calcustr+'.recent(0.05,0.2,7)'
+########over########
+
+0.52569
+#######begin#######
+calcustr=calcustr+'.rsi()'
+calcustr=calcustr+'.effection(7,0.5)'
+########over########
+
+0.60539
+#######begin#######
+calcustr=calcustr+'.effection(5,0.4)'
+calcustr=calcustr+'.macd()'
+calcustr=calcustr+'.band(15,2,2)'
+calcustr=calcustr+'.volumeeffect(4,0.5)'
+########over########
+
+0.61497
+#记分器
+#######begin#######
+calcustr=calcustr+'.effection(5,0.4)'
+calcustr=calcustr+'.macd()'
+calcustr=calcustr+'.band(15,2,2)'
+calcustr=calcustr+'.volumeeffect(4,0.5)'
+########over########
+#过滤器
+fil=filtercontrol.load(st,stockk).volume(27000*3).price(5,200).effection(5,0.4).show()
+
+0.62068
+#记分器
+#######begin#######
+calcustr=calcustr+'.effection(5,0.4)'
+calcustr=calcustr+'.macd()'
+calcustr=calcustr+'.band(15,2,2)'
+calcustr=calcustr+'.volumeeffect(4,0.5)'
+########over########
+#过滤器
+fil=filtercontrol.load(st,stockk).volume(27000*3).price(5,150).effection(3,0.4).show()
+
+
+0.57026
+#######begin#######
+calcustr=calcustr+'.band(20,2,2)'
+calcustr=calcustr+'.ema(3,6)'
+calcustr=calcustr+'.volumeeffect(4,0.5)'
+########over########
+
+0.604852
+#######begin#######
+calcustr=calcustr+'.band(20,2,2)'
+calcustr=calcustr+'.ema(3,6)'
+calcustr=calcustr+'.macd()'
+########over########
+
+0.562227
+#######begin#######
+calcustr=calcustr+'.recent(0.05,0.2,7)'
+calcustr=calcustr+'.ema(3,6)'
+calcustr=calcustr+'.rsi()'
+########over########
+
+0.563275
+#######begin#######
+calcustr=calcustr+'.recent(0.05,0.2,7)'
+calcustr=calcustr+'.band(20,2,2)'
+calcustr=calcustr+'.rsi()'
+########over########

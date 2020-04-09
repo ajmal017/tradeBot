@@ -1,0 +1,603 @@
+adx()', 'daysofpotential(60,0.15)', 'effection(7,0.5)'), ('macd()', 'adx()', 're
+cent(0.05,1,4)', 'effection(7,0.5)'), ('macd()', 'cci()', 'daysofpotential(60,0.
+15)', 'recent(0.05,1,4)'), ('macd()', 'cci()', 'daysofpotential(60,0.15)', 'effe
+ction(7,0.5)'), ('macd()', 'cci()', 'recent(0.05,1,4)', 'effection(7,0.5)'), ('m
+acd()', 'daysofpotential(60,0.15)', 'recent(0.05,1,4)', 'effection(7,0.5)'), ('a
+dx()', 'cci()', 'daysofpotential(60,0.15)', 'recent(0.05,1,4)'), ('adx()', 'cci(
+)', 'daysofpotential(60,0.15)', 'effection(7,0.5)'), ('adx()', 'cci()', 'recent(
+0.05,1,4)', 'effection(7,0.5)'), ('adx()', 'daysofpotential(60,0.15)', 'recent(0
+.05,1,4)', 'effection(7,0.5)'), ('cci()', 'daysofpotential(60,0.15)', 'recent(0.
+05,1,4)', 'effection(7,0.5)')]
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).ad().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).mfi().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).rsi().show()
+0.522123893805
+good found
+0.522123893805
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).kdj().show()
+0.579096045198
+good found
+0.579096045198
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).macd().show()
+0.570822731128
+good found
+0.570822731128
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).cci().show()
+0.516853932584
+good found
+0.516853932584
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).daysofpotential(60,0.15).sh
+ow()
+0.568333333333
+good found
+0.568333333333
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).recent(0.05,1,4).show()
+0.568862275449
+good found
+0.568862275449
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).effection(7,0.5).show()
+0.63684771033
+good found
+0.63684771033
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().mfi().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().rsi().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().kdj().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().macd().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().daysofpotential(60,0.15).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().rsi().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().kdj().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().macd().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().daysofpotential(60,0.15).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().kdj().show()
+0.333333333333
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().macd().show()
+0.507142857143
+good found
+0.507142857143
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().cci().show()
+0.25
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().daysofpotential(60,0.15).show()
+0.428571428571
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().recent(0.05,1,4).show()
+0.535714285714
+good found
+0.535714285714
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().effection(7,0.5).show()
+0.494318181818
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().macd().show()
+0.622881355932
+good found
+0.622881355932
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().cci().show()
+0.467391304348
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().daysofpotential(60,0.15).show()
+0.361904761905
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().recent(0.05,1,4).show()
+0.592105263158
+good found
+0.592105263158
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().effection(7,0.5).show()
+0.585858585859
+good found
+0.585858585859
+res=cacuer.volumeeffect(4,0.5).ema(3,6).macd().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).macd().cci().show()
+0.571428571429
+good found
+0.571428571429
+res=cacuer.volumeeffect(4,0.5).ema(3,6).macd().daysofpotential(60,0.15).show()
+0.620991253644
+good found
+0.620991253644
+res=cacuer.volumeeffect(4,0.5).ema(3,6).macd().recent(0.05,1,4).show()
+0.630769230769
+good found
+0.630769230769
+res=cacuer.volumeeffect(4,0.5).ema(3,6).macd().effection(7,0.5).show()
+0.638225255973
+good found
+0.638225255973
+res=cacuer.volumeeffect(4,0.5).ema(3,6).adx().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).adx().daysofpotential(60,0.15).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).adx().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).adx().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).cci().daysofpotential(60,0.15).show()
+0.453237410072
+res=cacuer.volumeeffect(4,0.5).ema(3,6).cci().recent(0.05,1,4).show()
+0.41935483871
+res=cacuer.volumeeffect(4,0.5).ema(3,6).cci().effection(7,0.5).show()
+0.564102564103
+good found
+0.564102564103
+res=cacuer.volumeeffect(4,0.5).ema(3,6).daysofpotential(60,0.15).recent(0.05,1,4
+).show()
+0.604166666667
+good found
+0.604166666667
+res=cacuer.volumeeffect(4,0.5).ema(3,6).daysofpotential(60,0.15).effection(7,0.5
+).show()
+0.292682926829
+res=cacuer.volumeeffect(4,0.5).ema(3,6).recent(0.05,1,4).effection(7,0.5).show()
+
+0.529411764706
+good found
+0.529411764706
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).ad().mfi().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).ad().rsi().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).ad().kdj().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).ad().macd().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).ad().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).ad().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).ad().daysofpotential(60,0.15).show()
+
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).ad().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).ad().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).mfi().rsi().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).mfi().kdj().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).mfi().macd().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).mfi().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).mfi().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).mfi().daysofpotential(60,0.15).show(
+)
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).mfi().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).mfi().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).rsi().kdj().show()
+0.485294117647
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).rsi().macd().show()
+0.524752475248
+good found
+0.524752475248
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).rsi().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).rsi().cci().show()
+0.333333333333
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).rsi().daysofpotential(60,0.15).show(
+)
+0.4
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).rsi().recent(0.05,1,4).show()
+0.566037735849
+good found
+0.566037735849
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).rsi().effection(7,0.5).show()
+0.510204081633
+good found
+0.510204081633
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).kdj().macd().show()
+0.588235294118
+good found
+0.588235294118
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).kdj().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).kdj().cci().show()
+0.476744186047
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).kdj().daysofpotential(60,0.15).show(
+)
+0.349593495935
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).kdj().recent(0.05,1,4).show()
+0.576923076923
+good found
+0.576923076923
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).kdj().effection(7,0.5).show()
+0.531531531532
+good found
+0.531531531532
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).macd().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).macd().cci().show()
+0.575
+good found
+0.575
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).macd().daysofpotential(60,0.15).show
+()
+0.62426035503
+good found
+0.62426035503
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).macd().recent(0.05,1,4).show()
+0.645502645503
+good found
+0.645502645503
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).macd().effection(7,0.5).show()
+0.634275618375
+good found
+0.634275618375
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).adx().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).adx().daysofpotential(60,0.15).show(
+)
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).adx().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).adx().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).cci().daysofpotential(60,0.15).show(
+)
+0.452554744526
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).cci().recent(0.05,1,4).show()
+0.416666666667
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).cci().effection(7,0.5).show()
+0.58407079646
+good found
+0.58407079646
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).daysofpotential(60,0.15).recent(0.05
+,1,4).show()
+0.5625
+good found
+0.5625
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).daysofpotential(60,0.15).effection(7
+,0.5).show()
+0.268656716418
+res=cacuer.volumeeffect(4,0.5).band(20,2,2).recent(0.05,1,4).effection(7,0.5).sh
+ow()
+0.54128440367
+good found
+0.54128440367
+res=cacuer.volumeeffect(4,0.5).ad().mfi().rsi().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ad().mfi().kdj().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ad().mfi().macd().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ad().mfi().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ad().mfi().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ad().mfi().daysofpotential(60,0.15).show()
+
+
+
+
+
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).kdj().effection(7,0.5).show
+()
+0.61262553802
+good found
+0.61262553802
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).macd().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).macd().cci().show()
+0.587570621469
+good found
+0.587570621469
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).macd().daysofpotential(60,0
+.15).show()
+0.630669546436
+good found
+0.630669546436
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).macd().recent(0.05,1,4).sho
+w()
+0.614634146341
+good found
+0.614634146341
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).macd().effection(7,0.5).sho
+w()
+0.628086419753
+good found
+0.628086419753
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).adx().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).adx().daysofpotential(60,0.
+15).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).adx().recent(0.05,1,4).show
+()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).adx().effection(7,0.5).show
+()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).cci().daysofpotential(60,0.
+15).show()
+0.461538461538
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).cci().recent(0.05,1,4).show
+()
+0.421875
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).cci().effection(7,0.5).show
+()
+0.55
+good found
+0.55
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).daysofpotential(60,0.15).re
+cent(0.05,1,4).show()
+0.587939698492
+good found
+0.587939698492
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).daysofpotential(60,0.15).ef
+fection(7,0.5).show()
+0.602857142857
+good found
+0.602857142857
+res=cacuer.volumeeffect(4,0.5).ema(3,6).band(20,2,2).recent(0.05,1,4).effection(
+7,0.5).show()
+0.642201834862
+good found
+0.642201834862
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().mfi().rsi().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().mfi().kdj().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().mfi().macd().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().mfi().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().mfi().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().mfi().daysofpotential(60,0.15).show
+()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().mfi().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().mfi().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().rsi().kdj().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().rsi().macd().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().rsi().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().rsi().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().rsi().daysofpotential(60,0.15).show
+()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().rsi().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().rsi().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().kdj().macd().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().kdj().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().kdj().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().kdj().daysofpotential(60,0.15).show
+()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().kdj().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().kdj().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().macd().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().macd().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().macd().daysofpotential(60,0.15).sho
+w()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().macd().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().macd().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().adx().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().adx().daysofpotential(60,0.15).show
+()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().adx().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().adx().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().cci().daysofpotential(60,0.15).show
+()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().cci().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().cci().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().daysofpotential(60,0.15).recent(0.0
+5,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().daysofpotential(60,0.15).effection(
+7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).ad().recent(0.05,1,4).effection(7,0.5).s
+how()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().rsi().kdj().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().rsi().macd().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().rsi().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().rsi().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().rsi().daysofpotential(60,0.15).sho
+w()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().rsi().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().rsi().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().kdj().macd().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().kdj().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().kdj().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().kdj().daysofpotential(60,0.15).sho
+w()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().kdj().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().kdj().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().macd().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().macd().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().macd().daysofpotential(60,0.15).sh
+ow()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().macd().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().macd().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().adx().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().adx().daysofpotential(60,0.15).sho
+w()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().adx().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().adx().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().cci().daysofpotential(60,0.15).sho
+w()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().cci().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().cci().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().daysofpotential(60,0.15).recent(0.
+05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().daysofpotential(60,0.15).effection
+(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).mfi().recent(0.05,1,4).effection(7,0.5).
+show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().kdj().macd().show()
+0.473684210526
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().kdj().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().kdj().cci().show()
+0.333333333333
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().kdj().daysofpotential(60,0.15).sho
+w()
+0.333333333333
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().kdj().recent(0.05,1,4).show()
+0.586956521739
+good found
+0.586956521739
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().kdj().effection(7,0.5).show()
+0.484126984127
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().macd().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().macd().cci().show()
+0.333333333333
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().macd().daysofpotential(60,0.15).sh
+ow()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().macd().recent(0.05,1,4).show()
+0.573770491803
+good found
+0.573770491803
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().macd().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().adx().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().adx().daysofpotential(60,0.15).sho
+w()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().adx().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().adx().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().cci().daysofpotential(60,0.15).sho
+w()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().cci().recent(0.05,1,4).show()
+0.25
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().cci().effection(7,0.5).show()
+0.333333333333
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().daysofpotential(60,0.15).recent(0.
+05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().daysofpotential(60,0.15).effection
+(7,0.5).show()
+0.375
+res=cacuer.volumeeffect(4,0.5).ema(3,6).rsi().recent(0.05,1,4).effection(7,0.5).
+show()
+0.5375
+good found
+0.5375
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().macd().adx().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().macd().cci().show()
+0.522727272727
+good found
+0.522727272727
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().macd().daysofpotential(60,0.15).sh
+ow()
+0.552083333333
+good found
+0.552083333333
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().macd().recent(0.05,1,4).show()
+0.680672268908
+good found
+0.680672268908
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().macd().effection(7,0.5).show()
+0.610526315789
+good found
+0.610526315789
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().adx().cci().show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().adx().daysofpotential(60,0.15).sho
+w()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().adx().recent(0.05,1,4).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().adx().effection(7,0.5).show()
+0.5
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().cci().daysofpotential(60,0.15).sho
+w()
+0.493506493506
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().cci().recent(0.05,1,4).show()
+0.526315789474
+good found
+0.526315789474
+res=cacuer.volumeeffect(4,0.5).ema(3,6).kdj().cci().effection(7,0.5).show()

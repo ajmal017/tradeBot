@@ -1,0 +1,54 @@
+
+#今日准备操作的股票列表
+# today_buylist=[]
+# today_buylist=['INVT','DMF','UGLD','BZM','DRD','UGL','NUM','IIM','PHYS','D','AU','IRCP','GDXX','MNP','AFSD']
+# today_buylist=['INVT','DMF','UGLD','DRD','PHYS','D','AU','IRCP','GDXX','AFSD']
+# today_buylist=[]#,'SWN','UGL','CREE','DRD','D','AFSD'
+#,'CPL','WDFC','PCAR','MYY','NNN','CLAW','G','K','SLVO','SAIA','GFI'
+# today_buylist=['CPL','WDFC','PCAR','MYY','NNN','CLAW','G','K','SLVO','SAIA','GFI']
+# today_buylist=['CPL','MYY','NNN','CLAW','K','SLVO','SAIA','GFI']
+
+#每天只能选出3个股票进行操作。手动操作的股票不超过2个
+#每天只能选出3个股票进行操作。手动操作的股票不超过2个
+#每天只能选出3个股票进行操作。手动操作的股票不超过2个
+#每天只能选出3个股票进行操作。手动操作的股票不超过2个
+#每天只能选出3个股票进行操作。手动操作的股票不超过2个
+#每天只能选出3个股票进行操作。手动操作的股票不超过2个
+
+#2.15
+# today_buylist=['CDE']
+#2.17
+# today_buylist=['CPA','JUNO','RRTS']
+#2.18
+# today_buylist=['GRMN','LAD','TISI','WSM','NLS','MTOR','PRLB','TASR']
+#2.19
+# today_buylist=['CHH','ITRI','LNN','LAD','URBN']
+# 2.22
+# today_buylist=['CHH','H','BRC','UAL']
+#2.23
+#{'SHAK': 4, 'RWLK': 4, 'SRPT': 4, 'SSYS': 4, 'SNC': 4}
+#2.24
+#{'MIRN': -3, 'ANAD': 4, 'CIVI': -3, 'TEDU': 4, 'CROC': -3, 'ANIP': 4, 'IBDK': -3
+# , 'LBIX': 4, 'ROG': 4, 'OSGB': -3, 'LNTH': 4, 'FTR': 4, 'KEM': 4, 'MNOV': 4, 'UN
+# TD': 4, 'NFP': 4, 'ABX': 4, 'ZIOP': 3, 'XTNT': 4, 'SPMD': 3, 'NMBL': 4, 'TREX':
+# 4, 'ORBK': 4, 'FTAI': -3, 'TXRH': 3, 'SMLL': 4}
+# 2.25
+# today_todolist={'HSNI': 4, 'DIN': 4, 'ISR': 4, 'ACH': 4, 'FORTY': 4, 'KATE': 4, 'MIRN': -3, 'RP
+# ': 4, 'HMY': 4, 'PZZA': 4, 'AMWD': 4, 'LNG': 4, 'GPL': 3, 'FTR': 4, 'CNR': 4, 'K
+# EYS': 4, 'FIX': 4, 'MIND': 4, 'SYMX': 3, 'TROV': 4, 'SPMD': 3, 'SATS': 4, 'HIMX'
+# : 4, 'NMBL': 4, 'SPCB': -3, 'KMPH': 4, 'SSTK': 4, 'ANAD': 4, 'UDN': -3}
+# today_todolist={'KATE': 4,'RP':4,'HMY': 4,'AMWD': 4,'LNG': 4,'KEYS':4,'FIX': 4,'SATS': 4,'KMPH': 4, }
+# today_todolist={'KATE': 4,'KEYS':4,'FIX': 4 }
+
+#2.26
+# {'HSNI': 4, 'VIXM': -3, 'COT': 4, 'SPTN': 4, 'W': 4, 'GRBK': 4, 'DPZ': 4, 'BPTH'
+# : 4, 'RWM': -3, 'HOML': 4, 'AAON': 4, 'QUAD': 4, 'DGLY': 4, 'CRM': 4, 'SZK': -3,
+#  'ENSV': 4, 'NSM': 4, 'BWZ': -3, 'PGM': 4, 'SXL': 3, 'CYTX': 4, 'VNCE': 3, 'LYG'
+# : 4, 'ASPS': 4, 'MEET': 4, 'AMUB': 4, 'FARO': 4, 'HEGJ': 4, 'TGS': 4, 'CRHM': 4,
+#  'SRTY': -3, 'VAC': 4, 'RMP': 4, 'XIN': 4, 'WES': 4, 'FEYE': 4, 'SPMD': 3, 'TRCH
+# ': -3, 'BLD': 4, 'NPO': 4, 'WPG': 4, 'VIIX': -3, 'CZR': 3, 'BRT': 4, 'NOA': 4, '
+# MCFT': 4, 'KURA': 3, 'SFM': 4, 'RWT': 4, 'AVG': 4, 'SPLK': 4, 'CVOL': -3, 'TESS'
+# : 4}
+
+# today_todolist={'TESS':4,'DGLY': 4,'VNCE': 3,'RWT': 4,'SPLK': 4,'MEET': 4,'CRHM': 4,'RMP': 4,'FEYE': 4,'CZR': 3,'KURA': 3,}
+today_todolist={'VNCE': 3,'RMP': 4,'CZR': 3,}
