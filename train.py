@@ -22,8 +22,8 @@ from itertools import combinations
 # 	index=1
 # 	for x in parray["Date"]:
 # 		if x==datestr :
-# 		 	# print parray["Date"].index(datestr)
-# 		 	# print index
+# 		 	# print(parray["Date"].index(datestr)
+# 		 	# print(index
 # 		 	return index
 # 		index=index+1
 
@@ -36,8 +36,8 @@ allstock=stocklib.getstocks()
 search = Engine()
 filtercontrol = Filter()
 
-# print allstock
-# print search
+# print(allstock
+# print(search
 
 
 
@@ -45,15 +45,15 @@ filtercontrol = Filter()
 # datestr='2016-01-04'
 
 # if os.path.exists("yahoo-nodejs/old/stocks/"+st+".csv"):
-# 	# print st
+# 	# print(st
 # 	stock = pd.read_table("yahoo-nodejs/old/stocks/"+st+".csv",sep=",",encoding='utf-8',dtype={'code':str})
 # 	stock=stock.sort(columns='Date')
-# 	print stock
+# 	print(stock
 # 	todayindex=list(stock['Date']).index(datestr)
 # 	stockk=stock[:todayindex+1]
 # 	# stockk=stockk.sort(columns='Date')
-# 	# print stock
-# 	print stockk
+# 	# print(stock
+# 	print(stockk
 # 	search.load(st,stockk).price(500,1000)
 
 
@@ -127,7 +127,7 @@ for daycount in range(0,simdays):
     period.append(str(startday))
 
 
-print period
+print(period)
 
 strategy=['volumeeffect(4,0.5)','ema(3,6)','band(20,2,2)','ad()','mfi()','rsi()','kdj()','macd()','adx()','cci()','daysofpotential(60,0.15)','recent(0.05,1,4)','effection(7,0.5)']
 
@@ -141,14 +141,14 @@ strategylist=[]
 #2个
 strategylist=list(combinations(list(strategy),5))
 
-print strategylist
+print(strategylist)
 
 for strgy in strategylist:
 	rcout=1;
 	wcout=1;
-	print 'res=cacuer.'+'.'.join(strgy)+'.show()'
+	print('res=cacuer.'+'.'.join(strgy)+'.show()')
 	for p in period:
-		# print p
+		# print(p
 		lastday=p
 		# res=ag.run(p)
 		# iwanttodo=[]
@@ -156,7 +156,7 @@ for strgy in strategylist:
 
 		for st in allstock:
 			if os.path.exists("yahoo-nodejs/old/stocks/"+st+".csv"):
-				# print st
+				# print(st
 				# st='UWTI'
 				stock = pd.read_table("yahoo-nodejs/old/stocks/"+st+".csv",sep=",",encoding='utf-8',dtype={'code':str})
 				stock=stock.sort(columns='Date')
@@ -165,7 +165,7 @@ for strgy in strategylist:
 		# st='AAPL'
 		# stock = pd.read_table("yahoo-nodejs/old/stocks/"+st+".csv",sep=",",encoding="utf-8",dtype={"code":str})
 		# stock=stock.sort(columns='Date')
-				# print stock
+				# print(stock
 				datestr=str(lastday) #'2016-02-01'
 				# datestr='2015-10-01'
 				# todayindex=list(stock['Date']).index(datestr)
@@ -192,29 +192,29 @@ for strgy in strategylist:
 				# ########over########
 				#过滤器
 				# fil=filtercontrol.load(st,stock).volume(27000*3).price(5,150).show()
-				# print fil.do
+				# print(fil.do
 
 				# calcustr=calcustr+'.show()'
 				# exec('res='+calcustr)
-				# print res.do
-				# print res.dotype
+				# print(res.do
+				# print(res.dotype
 
 				try:
 					todayindex=list(stock['Date']).index(datestr)
-					# print todayindex
-					# print stock
-					# print stock['Open'][:todayindex+1]
-					# print len(stock['Open'][:todayindex+1])
+					# print(todayindex
+					# print(stock
+					# print(stock['Open'][:todayindex+1]
+					# print(len(stock['Open'][:todayindex+1])
 					#第2天再看结果
 					didays=2
 					tomorow=np.array(stock[:todayindex+didays]['Close'])
 					stockk=stock[:todayindex+1]
-					# print type(stockk)
-					# print stockk['Close'][-1]
-					# print tomorow['Close'][-1]
+					# print(type(stockk)
+					# print(stockk['Close'][-1]
+					# print(tomorow['Close'][-1]
 
 					# search.load(st,stock)
-					# print len(stock)
+					# print(len(stock)
 					# if search.load(st,stock).volume(27000*3).daysofpotential(60,0.15).recent(0.05,1,4).effection(7,0.5).price(2,1000).adx().show():
 					cacuer=search.load(st,stockk) #.adx().show()
 					#记分器
@@ -223,49 +223,49 @@ for strgy in strategylist:
 					# ########over########
 					#过滤器
 					fil=filtercontrol.load(st,stockk).volume(27000*3).price(5,150).show()
-					# print fil.do
-					# print res
+					# print(fil.do
+					# print(res
 					if res.do  and (res.dotype>=1 or res.dotype<=-1) and fil.do:
-						# print st
+						# print(st
 						iwanttodo[st]=res.dotype
-						# print '-----------------reslut:'
-						# print tomorow[-2]
-						# print tomorow[-1]
-						# print '--------------------reslut'
+						# print('-----------------reslut:'
+						# print(tomorow[-2]
+						# print(tomorow[-1]
+						# print('--------------------reslut'
 						
 						#胜率计算
 						if res.dotype>=1:
 							if tomorow[-1]-tomorow[-didays]>0:
-								# print 'right'
+								# print('right'
 								rcout=rcout+1
 							else:
-								# print 'wrong'
+								# print('wrong'
 								wcout=wcout+1
 						else:
 							if tomorow[-1]-tomorow[-didays]<0:
-								# print 'right'
+								# print('right'
 								rcout=rcout+1
 							else:
-								# print 'wrong'
+								# print('wrong'
 								wcout=wcout+1
 						
 					else:
-						# print 'BAD'
+						# print('BAD'
 						# wcout=1
 						pass
-				except Exception, e:
+				except Exception as e:
 					pass
-					# print 'not find date'
+					# print('not find date'
 					# todayindex= list(stock['Date']).index('2016-02-01')
-		# print iwanttodo
-	print int(rcout)/(int(wcout)+int(rcout))
+		# print(iwanttodo
+	print(int(rcout)/(int(wcout)+int(rcout)))
 	if int(rcout)/(int(wcout)+int(rcout))>0.5:
-		print 'good found'
+		print('good found')
 		goodlist.append({"sg":strgy,"win":int(rcout)/(int(wcout)+int(rcout))})
-		# print rcout
-		# print wcout
-		print int(rcout)/(int(wcout)+int(rcout))
+		# print(rcout
+		# print(wcout
+		print(int(rcout)/(int(wcout)+int(rcout)))
 			# for s in iwanttodo:
-			# 	print s
-			# 	print stock['Close'][todayindex+2]
+			# 	print(s
+			# 	print(stock['Close'][todayindex+2]
 

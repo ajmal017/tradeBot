@@ -3,13 +3,13 @@ import os
 
 # #允许python 的dict数据类型 可以通过点的方式来取数据
 class DottableDict(dict):   
-	def __init__(self, *args, **kwargs):     
-		dict.__init__(self, *args, **kwargs)     
+	def __init__(self, *args, **kwargs):	 
+		dict.__init__(self, *args, **kwargs)	 
 		self.__dict__ = self  
-	def allowDotting(self, state=True):     
-		if state:       
+	def allowDotting(self, state=True):	 
+		if state:	   
 			self.__dict__ = self   
-		else:       
+		else:	   
 			self.__dict__ = dict() 
 
 #允许python 的dict数据类型 可以通过点的方式来取数据
@@ -35,7 +35,7 @@ def getmyaccount():
 			stock=stock.sort(columns='Date')
 			#计算损失多少
 			#计算当前价格 （以传入日期为准）
-    		info.position[st]['marketprice']=stock[-1]['Close']
+			info.position[st]['marketprice']=stock[-1]['Close']
 	return info
 
 #
@@ -50,7 +50,7 @@ def trade(conn,symbol,action,quantity,price = None):
 	elif action == 'SELL':
 		info.position[symbol]={"postion":-quantity,'dealprice':price,"marketprice":price,"banlence":0,"unrealized":0}
 	else:
-		print 'trade err'
+		print('trade err')
 	return {}
 
 

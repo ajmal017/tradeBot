@@ -218,12 +218,12 @@ class Engine:
 		close = self.priceclose
 		low = self.pricelow
 		high = self.pricehigh
-	   	#1.K线是快速确认线——数值在90以上为超买，数值在10以下为超卖；D大于80时，行情呈现超买现象。D小于20时，行情呈现超卖现象。
-	  		#2.上涨趋势中，K值大于D值，K线向上突破D线时，为买进信号。#待修改
-	   	#下跌趋势中，K小于D，K线向下跌破D线时，为卖出信号。#待修改
+		#1.K线是快速确认线——数值在90以上为超买，数值在10以下为超卖；D大于80时，行情呈现超买现象。D小于20时，行情呈现超卖现象。
+			#2.上涨趋势中，K值大于D值，K线向上突破D线时，为买进信号。#待修改
+		#下跌趋势中，K小于D，K线向下跌破D线时，为卖出信号。#待修改
 		#K,D
-	   	slowk, slowd = ta.STOCH(high,low,close, fastk_period=9, slowk_period=3, slowk_matype=0, slowd_period=3, slowd_matype=0)
-	   	if self.mydo.do:
+		slowk, slowd = ta.STOCH(high,low,close, fastk_period=9, slowk_period=3, slowk_matype=0, slowd_period=3, slowd_matype=0)
+		if self.mydo.do:
 			if slowk[-1]>=90 or slowd[-1]>=80:
 				self.mydo.do=True
 				self.mydo.dotype=self.mydo.dotype-1 #sell
@@ -238,9 +238,9 @@ class Engine:
 		low = self.pricelow
 		high = self.pricehigh
 		#参数14,5
-	   	slowreal = ta.RSI(close, timeperiod=14)
-	   	fastreal = ta.RSI(close, timeperiod=5)
-	   	if self.mydo.do:
+		slowreal = ta.RSI(close, timeperiod=14)
+		fastreal = ta.RSI(close, timeperiod=5)
+		if self.mydo.do:
 			if slowreal[-1]>=80 or fastreal[-1]>=80:
 				self.mydo.do=True
 				self.mydo.dotype=self.mydo.dotype-1 #sell

@@ -35,7 +35,8 @@ import matplotlib.pyplot as plt
 # from pub.publib import Engine 
 # from pub.publib import Filter 
 
-import agrithom
+# sys.path.append("./")
+import tlib.qianyuan.agrithom
 
 
 def main(stsymbol,priceclose):

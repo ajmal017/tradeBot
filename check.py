@@ -118,51 +118,53 @@ for p in period:
 	iwanttodo={}
 	for st in allstock:
 		if os.path.exists("tickets/"+st+".csv"):
-			# print st
-			stock = pd.read_table("tickets/"+st+".csv",sep=",",encoding='utf-8',dtype={'code':str})
-			stock=stock.sort(columns='Date')
-
-			# print stock
-			datestr=str(lastday) #'2016-02-01'
-			# datestr='2015-10-01'
-			# todayindex=list(stock['Date']).index(datestr)
-
-			#9月1号的数据计算 9月2号的数据来验证
-
-
-			# # print len(stock)
-			# calcustr='cacuer'
-			# cacuer=search.load(st,stock).volume(27000*3).price(1,500) #.adx().show()
-			# #res=cacuer.adx().effection(7,0.5).show() 0.565679574791
-			# #res=cacuer.adx().recent(0.05,1,4).effection(7,0.5).show() 0.533333333333
-			# #######begin#######
-			# # calcustr=calcustr+'.daysofpotential(120,0.90)'
-			# # calcustr=calcustr+'.recent(0.05,0.2,7)'
-			# calcustr=calcustr+'.effection(4,0.4)'
-			# # calcustr=calcustr+'.adx()'
-			# calcustr=calcustr+'.cci()'
-			# calcustr=calcustr+'.macd()'
-			# calcustr=calcustr+'.price(1,50)'
-			# calcustr=calcustr+'.band(20,2,2)'
-			# calcustr=calcustr+'.ema(8,15)'
-			# # calcustr=calcustr+'.volumeeffect(5,0.3)'
-			# ########over########
-			# calcustr=calcustr+'.show()'
-			# exec('res='+calcustr)
-			# print res.do
-			# # print res.dotype
-			#过滤器
-			# fil=filtercontrol.load(st,stock).volume(27000*3).price(5,200).effection(5,0.4).show()
-			# print fil.do
-
-			# res=search.load(st,stock).show()
-			
-			# res=search.run(st,stock)
-			# print res.do
-			# print res.dotype
-
 
 			try:
+				# print(st)
+				stock = pd.read_table("tickets/"+st+".csv",sep=",",encoding='utf-8',dtype={'code':str})
+				# stock=stock.sort(columns='Date')
+				stock=stock.sort_values('Date')
+
+
+				# print(stock)
+				datestr=str(lastday) #'2016-02-01'
+				# datestr='2015-10-01'
+				# todayindex=list(stock['Date']).index(datestr)
+
+				#9月1号的数据计算 9月2号的数据来验证
+
+
+				# # print len(stock)
+				# calcustr='cacuer'
+				# cacuer=search.load(st,stock).volume(27000*3).price(1,500) #.adx().show()
+				# #res=cacuer.adx().effection(7,0.5).show() 0.565679574791
+				# #res=cacuer.adx().recent(0.05,1,4).effection(7,0.5).show() 0.533333333333
+				# #######begin#######
+				# # calcustr=calcustr+'.daysofpotential(120,0.90)'
+				# # calcustr=calcustr+'.recent(0.05,0.2,7)'
+				# calcustr=calcustr+'.effection(4,0.4)'
+				# # calcustr=calcustr+'.adx()'
+				# calcustr=calcustr+'.cci()'
+				# calcustr=calcustr+'.macd()'
+				# calcustr=calcustr+'.price(1,50)'
+				# calcustr=calcustr+'.band(20,2,2)'
+				# calcustr=calcustr+'.ema(8,15)'
+				# # calcustr=calcustr+'.volumeeffect(5,0.3)'
+				# ########over########
+				# calcustr=calcustr+'.show()'
+				# exec('res='+calcustr)
+				# print res.do
+				# # print res.dotype
+				#过滤器
+				# fil=filtercontrol.load(st,stock).volume(27000*3).price(5,200).effection(5,0.4).show()
+				# print fil.do
+
+				# res=search.load(st,stock).show()
+				
+				# res=search.run(st,stock)
+				# print res.do
+				# print res.dotype
+				# 
 				todayindex=list(stock['Date']).index(datestr)
 				# print datestr
 				# print todayindex

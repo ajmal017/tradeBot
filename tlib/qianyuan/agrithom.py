@@ -1,7 +1,7 @@
 #coding:utf-8
 import os,sys
-parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0,parentdir)
+# parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# sys.path.insert(0,parentdir)
 # sys.path.append("..")
 import pandas as pd
 import talib as ta
@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 # filtercontrol = Filter()
 
 #####新的系统
-from tech import Dealler 
+from tlib.qianyuan.tech import Dealler 
 search=Dealler()
 filtercontrol=Dealler()
 
